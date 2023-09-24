@@ -8,8 +8,10 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		MarioGame mario=new MarioGame();
-		GameRunner g1=new GameRunner(mario);
+		// MarioGame mario=new MarioGame();
+		Supercontra s1=new Supercontra();
+		GameRunner g1=new GameRunner(s1);
+		g1.run();
 	}
 
 }
