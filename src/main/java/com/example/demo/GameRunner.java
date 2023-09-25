@@ -3,9 +3,9 @@ package com.example.demo;
 public class GameRunner {
 
     // private MarioGame newgame;
-    private Supercontra newgame;
+    private Gamingconsole newgame;
 
-    public GameRunner(Supercontra s1) 
+    public GameRunner(Gamingconsole s1) 
     {
         this.newgame=s1;
         

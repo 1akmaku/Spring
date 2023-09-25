@@ -1,6 +1,6 @@
 package com.example.demo;
 
-public class Supercontra 
+public class Supercontra implements Gamingconsole
 {
     public void up()
     {
